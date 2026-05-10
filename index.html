@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>薬剤師ママの処方箋。｜子育て中の薬剤師が転職を考えたら</title>
+    <meta name="description" content="調剤薬局7年目のママ薬剤師あかりが、転職・働き方・収入のリアルを発信するブログ。子育て中の薬剤師に向けて体験談をもとに情報をまとめています。">
+    <meta property="og:title" content="薬剤師ママの処方箋。">
+    <meta property="og:description" content="調剤薬局7年目のママ薬剤師が、転職・働き方・収入のリアルを発信。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://akari-pharma.github.io/pharma_mama/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="薬剤師ママの処方箋。">
+    <meta name="twitter:description" content="調剤薬局7年目のママ薬剤師が、転職・働き方・収入のリアルを発信。">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'bg-main': '#F8F9FB',
+                        'bg-card': '#FFFFFF',
+                        'accent-blue': '#3B82F6',
+                        'accent-teal': '#0D9488',
+                        'text-primary': '#1E293B',
+                        'text-secondary': '#64748B',
+                        'border-light': '#E2E8F0',
+                        'pharma-green': '#059669',
+                        'pharma-blue': '#2563EB',
+                    },
+                    fontFamily: {
+                        'sans': ['Noto Sans JP', 'sans-serif'],
+                        'serif': ['Noto Serif JP', 'serif'],
+                        'display': ['DM Serif Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #F8F9FB;
+            color: #1E293B;
+            font-family: 'Noto Sans JP', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            border: 1px solid #E2E8F0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+        }
+
+        .btn-primary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 32px;
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(16px);
+            transition: all 0.7s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .profile-ring {
+            border: 3px solid #E2E8F0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .floating {
+            animation: float 4s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #E2E8F0, transparent);
+        }
+
+        a { text-decoration: none; cursor: pointer; }
+
+        .section-label {
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #94A3B8;
+        }
+    </style>
+</head>
+<body class="py-4 md:py-8 px-4">
+
+    <!-- PR表記 -->
+    <div class="max-w-2xl mx-auto mb-4 flex justify-between items-center px-1">
+        <span class="section-label">Personal Blog</span>
+        <span class="text-[10px] text-text-secondary bg-white px-3 py-1 rounded-full border border-border-light">PR：本ページはプロモーションを含みます</span>
+    </div>
+
+    <!-- Header -->
+    <header class="max-w-2xl mx-auto mb-8 text-center reveal">
+        <h1 class="font-display text-3xl md:text-4xl text-text-primary mb-1 tracking-tight">薬剤師ママの処方箋。</h1>
+        <p class="section-label">Pharmacist Mom's Career Journal</p>
+    </header>
+
+    <!-- Main -->
+    <main class="max-w-2xl mx-auto space-y-5 mb-12">
+
+        <!-- Hero Card -->
+        <div class="card overflow-hidden reveal">
+            <div class="p-3">
+                <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&q=80&w=1200" alt="薬剤師のイメージ" class="w-full h-56 md:h-72 object-cover rounded-xl">
+            </div>
+            <div class="px-6 md:px-10 pt-4 pb-8">
+                <h2 class="font-serif text-xl md:text-2xl font-bold leading-relaxed text-text-primary mb-3">
+                    子育て中の薬剤師向け<br>
+                    <span class="text-pharma-blue">転職サービス比較</span>
+                </h2>
+                <p class="text-sm text-text-secondary leading-relaxed mb-2">調剤薬局7年目・2児のママ薬剤師あかりが、実際に使った転職サービスをまとめました。</p>
+                <p class="text-xs text-text-secondary">※本サイトでは薬剤師向け転職サービスの情報をまとめています。</p>
+            </div>
+        </div>
+
+        <!-- サービス比較 -->
+        <div class="card px-6 md:px-10 py-8 reveal">
+
+            <div class="flex items-center gap-2 mb-6 pb-4 border-b border-border-light">
+                <i data-lucide="layout-list" class="text-pharma-blue w-4 h-4"></i>
+                <span class="font-bold text-sm text-text-primary">主な転職サービス</span>
+            </div>
+
+            <div class="space-y-10">
+
+                <!-- ファルマスタッフ -->
+                <div class="reveal">
+                    <div class="flex items-start gap-3 mb-3">
+                        <span class="tag bg-blue-50 text-blue-600">01</span>
+                        <h3 class="font-bold text-base text-text-primary">ファルマスタッフ</h3>
+                    </div>
+                    <div class="text-sm text-text-secondary leading-relaxed mb-4 space-y-2 pl-9">
+                        <p>東証プライム上場・日本調剤グループが運営する薬剤師専門の転職エージェントです。</p>
+                        <p>担当コンサルタントが就業先に直接訪問してヒアリングするため、求人情報の精度が高く、職場の雰囲気や残業の実態など現場の声を反映しています。20代・30代に強い薬剤師転職サイトNo.1（※）。転職相談満足度96.5%。</p>
+                        <p class="text-xs text-text-secondary/60">※日本マーケティングリサーチ調べ</p>
+                    </div>
+                    <a href="https://www.fstaff.co.jp/" target="_blank" rel="noopener noreferrer" class="btn-primary bg-pharma-blue text-white w-full md:w-auto">
+                        公式サイトはこちら
+                    </a>
+                </div>
+
+                <div class="divider"></div>
+
+                <!-- 薬剤師派遣サービス -->
+                <div class="reveal">
+                    <div class="flex items-start gap-3 mb-3">
+                        <span class="tag bg-teal-50 text-teal-600">02</span>
+                        <h3 class="font-bold text-base text-text-primary">薬剤師派遣・単発サービス</h3>
+                    </div>
+                    <div class="text-sm text-text-secondary leading-relaxed mb-4 space-y-2 pl-9">
+                        <p>調剤薬局・病院・ドラッグストアを中心に、関東・関西をはじめ全国の求人を取り扱う薬剤師専門の派遣・人材紹介サービスです。</p>
+                        <p>1日単位の単発派遣から週5日フルタイムまで対応。派遣の最低時給は関東2,800円・関西2,700円を保証。空いた日だけ副業として稼ぎたい方にも、年収を大幅にアップしたい方にも対応できます。</p>
+                    </div>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary bg-accent-teal text-white w-full md:w-auto">
+                        詳細はこちら
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- まとめ -->
+            <div class="mt-8 p-5 rounded-xl bg-bg-main border border-border-light">
+                <h3 class="font-bold text-sm text-text-primary mb-2 flex items-center gap-2">
+                    <i data-lucide="info" class="w-4 h-4 text-pharma-blue"></i>
+                    まとめ
+                </h3>
+                <p class="text-xs text-text-secondary leading-relaxed">転職活動では複数のサービスを比較しながら進めることで、条件に合った職場を見つけやすくなります。担当者に「子育て中・急な休みに理解がある職場」と最初から伝えると、条件に合う求人を絞って紹介してもらえます。</p>
+            </div>
+        </div>
+
+        <!-- 最新コラム -->
+        <div class="card px-6 md:px-10 py-8 reveal">
+            <div class="flex items-center gap-2 mb-5 pb-4 border-b border-border-light">
+                <i data-lucide="book-open" class="text-pharma-blue w-4 h-4"></i>
+                <span class="font-bold text-sm text-text-primary">最新コラム</span>
+            </div>
+            <div class="space-y-3">
+                <a href="./column1.html" class="block p-5 rounded-xl bg-bg-main border border-border-light hover:border-pharma-blue/30 hover:shadow-sm transition-all">
+                    <p class="section-label mb-1">Column · 2026.04.23</p>
+                    <p class="font-bold text-sm text-text-primary mb-1">調剤薬局7年目、転職を決めた理由</p>
+                    <p class="text-xs text-text-secondary leading-relaxed">「このままでいいのか」という漠然とした不安が、ある日具体的な行動に変わった。</p>
+                    <p class="text-xs text-pharma-blue mt-2 font-bold">続きを読む →</p>
+                </a>
+                <a href="./column2.html" class="block p-5 rounded-xl bg-bg-main border border-border-light hover:border-pharma-blue/30 hover:shadow-sm transition-all">
+                    <p class="section-label mb-1">Column · 2026.04.10</p>
+                    <p class="font-bold text-sm text-text-primary mb-1">薬剤師ママが転職で絶対に確認すべき3つのこと</p>
+                    <p class="text-xs text-text-secondary leading-relaxed">子育て中だからこそ、給与より先に確認すべきことがある。</p>
+                    <p class="text-xs text-pharma-blue mt-2 font-bold">続きを読む →</p>
+                </a>
+            </div>
+            <a href="./columns.html" class="mt-4 flex items-center justify-center gap-2 w-full py-3 rounded-xl border border-border-light text-text-secondary text-xs font-bold hover:bg-bg-main transition-colors">
+                コラムをもっと見る
+                <i data-lucide="arrow-right" class="w-3 h-3"></i>
+            </a>
+        </div>
+
+        <!-- プロフィール -->
+        <div class="card px-6 md:px-10 py-8 reveal">
+            <p class="section-label text-center mb-5">Writer Profile</p>
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <div class="w-20 h-20 rounded-full profile-ring overflow-hidden bg-bg-main flex-shrink-0 flex items-center justify-center floating">
+                    <svg width="60" height="60" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="35" r="12" fill="#93C5FD"/>
+                        <circle cx="70" cy="35" r="12" fill="#93C5FD"/>
+                        <circle cx="50" cy="55" r="32" fill="#BFDBFE"/>
+                        <ellipse cx="50" cy="65" rx="15" ry="12" fill="#DBEAFE"/>
+                        <circle cx="40" cy="52" r="3" fill="#1E40AF"/>
+                        <circle cx="60" cy="52" r="3" fill="#1E40AF"/>
+                        <circle cx="35" cy="60" r="4" fill="#BAE6FD" fill-opacity="0.7"/>
+                        <circle cx="65" cy="60" r="4" fill="#BAE6FD" fill-opacity="0.7"/>
+                    </svg>
+                </div>
+                <div class="text-sm leading-relaxed text-text-secondary">
+                    <p class="font-bold text-text-primary mb-1">あかり（Akari）</p>
+                    <p class="section-label mb-2">Pharmacist / Mom of 2</p>
+                    <p>調剤薬局7年目。子育てしながら働く中で「このままでいいのか」と感じ転職を経験。同じ悩みを持つ薬剤師ママに向けて、転職・働き方・収入のリアルを発信しています。</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-2xl mx-auto pb-16 text-center px-4">
+        <div class="flex justify-center gap-6 mb-6">
+            <a href="https://www.threads.com/@akari_pharma" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-text-secondary hover:text-text-primary transition-colors">
+                <svg width="14" height="14" viewBox="0 0 192 192" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M141.537 88.988a66.667 66.667 0 0 0-2.518-1.143c-1.482-27.307-16.403-42.94-41.457-43.1h-.34c-14.986 0-27.449 6.396-35.12 18.036l13.779 9.452c5.73-8.695 14.724-10.548 21.348-10.548h.23c8.248.054 14.474 2.452 18.502 7.129 2.932 3.405 4.893 8.111 5.864 14.05-7.314-1.243-15.224-1.626-23.68-1.14-23.82 1.371-39.134 15.264-38.105 34.568.522 9.792 5.4 18.216 13.735 23.719 7.047 4.652 16.124 6.927 25.557 6.412 12.458-.683 22.231-5.436 29.049-14.127 5.178-6.6 8.453-15.153 9.899-25.93 5.937 3.583 10.337 8.298 12.767 13.966 4.132 9.635 4.373 25.468-8.546 38.376-11.319 11.308-24.925 16.2-45.488 16.351-22.809-.169-40.06-7.484-51.275-21.741C35.236 139.966 29.808 120.682 29.605 96c.203-24.682 5.63-43.966 16.133-57.316C56.954 24.425 74.206 17.11 97.015 16.94c22.975.17 40.526 7.52 52.171 21.847 5.71 7.026 10.015 15.86 12.853 26.162l16.147-4.308c-3.44-12.68-8.853-23.606-16.219-32.668C147.036 9.607 125.202.195 97.105 0h-.113C68.921.195 47.354 9.645 32.79 28.08 19.884 44.485 13.226 67.315 13.001 96c.225 28.685 6.883 51.515 19.789 67.92 14.564 18.435 36.131 27.885 64.102 28.08h.113c24.96-.173 42.554-6.708 57.048-21.19 18.963-18.949 18.392-42.858 12.14-57.497-4.45-10.361-12.906-18.682-24.657-24.325Z"/></svg>
+                Threads
+            </a>
+            <a href="https://www.instagram.com/akari_pharma" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-text-secondary hover:text-text-primary transition-colors">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0Zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881Z"/></svg>
+                Instagram
+            </a>
+        </div>
+        <p class="text-[10px] text-text-secondary/40 font-bold mb-6 uppercase tracking-widest">&copy; 2026 薬剤師ママの処方箋。</p>
+        <div class="bg-white rounded-xl p-5 text-[10px] text-left leading-relaxed text-text-secondary/60 border border-border-light">
+            <p class="font-bold text-center text-text-secondary mb-3 uppercase tracking-widest text-[10px]">Compliance & Ethics</p>
+            <p class="mb-2">当サイト「薬剤師ママの処方箋。」は、薬剤師向け転職サービスの情報を紹介しています。</p>
+            <p class="mb-2">掲載している転職支援サービスは、すべて厚生労働大臣の認可を得た正規の紹介事業者です。本ページは適切な広告表記（PR）のもと運営されています。</p>
+            <p>利用者様の個人情報を当サイトが直接収集・保存することはありません。最新の情報はリンク先の各公式サイトにてご確認ください。</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
